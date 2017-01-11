@@ -1,0 +1,51 @@
+.topBar{
+	position: absolute;
+	height: 50px;
+	width: 1000px;
+	z-index: 6;
+}
+
+.topBar .search{
+	width: 316px;
+	height: 30px;
+	margin-left: 270px;
+	margin-top: 10px;
+}
+.topBar .search input{
+	width: 304px;
+	height: 28px;
+	outline: none;
+	border: 1px solid #ababab;
+	border-radius: 1px;
+	background: none;
+	font-size: 14px;
+	color: #fff;
+}
+.topBar .search img{
+	margin-left: -80px;
+	cursor: pointer;
+}
+
+.topBar ul{
+	margin-top: 10px;
+	margin-left: 38px;
+}
+.topBar ul li{
+	line-height: 30px;
+	margin-right: 6px;
+}
+.topBar ul li span{
+	cursor: pointer;
+}
+.topBar ul li a{
+	color: #dedede;
+	font-size: 13px;
+	line-height: 30px;
+	padding-right: 8px;
+	padding-top: 2px;
+}
+
+.topBar ul .uploadLogo{
+	padding-top: 11px;
+	padding-right: 2px;
+}

@@ -1,0 +1,37 @@
+*{margin:0; padding:0; font-family: "microsoft yahei";}
+li{list-style:none;}
+img{display:block;}
+a{text-decoration:none;}
+body{
+	width: 1000px;
+	position: absolute;
+	margin-left: -500px;
+	left: 50%;
+	/*margin: 0 auto;*/
+	/*overflow: hidden;*/
+}
+
+.fl{float:left;}
+.fr{float:right;}
+.clearFix:after{content:''; display:block; clear:both;}
+.clearFix{zoom:1;}
+.wraper{margin:0 auto;}
+
+/*下箭头*/
+.dot-bottom{
+	margin-left: -4px;
+	font-size: 0;
+	line-height: 0;
+	border-width: 5px;
+	border-color: #ababab;
+	border-bottom-width: 0;
+	border-style: dashed;
+	border-top-style: solid;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+
+/*小红点*/
+.redPoint{
+	background: url(../imgs/redPoint.png) no-repeat top right;
+}

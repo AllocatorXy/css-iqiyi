@@ -1,0 +1,10 @@
+
+.iList li{
+	background: url(../imgs/list-point.png) 0 center no-repeat;
+	padding-left: 22px;
+	margin-top: 13px;
+}
+.iList li a{
+	color: #333;
+	font-size: 16px;
+}

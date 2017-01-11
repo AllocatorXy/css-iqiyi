@@ -1,0 +1,46 @@
+.site-focuslist{
+	position: absolute;
+	height: 410px;
+}
+.site-focuslist .showing{
+	position: absolute;
+	cursor: pointer;
+}
+.site-focuslist .showing .pic{
+	position: absolute;
+}
+.site-focuslist .showing .shadow{
+	position: absolute;
+}
+
+.site-focuslist .focuslist-index{
+	margin-top: 50px;
+	margin-left: 766px;
+}
+
+.site-focuslist .index-bg{
+	position: absolute;
+	width: 235px;
+	height: 364px;
+	background: url(../imgs/site-focuslist_bg.png) no-repeat;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+.site-focuslist .index_list{
+	position: absolute;
+	padding-top: 11px;
+}
+.site-focuslist .index_list .now{
+	background-color: #75b200;
+}
+.site-focuslist .index_list li{
+	line-height: 33px;
+	width: 213px;
+	margin-left: 11px;
+}
+.site-focuslist .index_list li a{
+	font-size: 13px;
+	color: #dedede;
+	margin-left: 17px;
+}
+

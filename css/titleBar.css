@@ -1,0 +1,17 @@
+.titleBar{
+	height: 40px;
+	width: 100%;
+	border-bottom: 2px solid #85ba4d;
+}
+.titleBar h2{
+	font-size: 23px;
+	line-height: 40px;
+	font-weight: bold;
+	color: #699f00;
+}
+.titleBar .more{
+	font-size: 15px;
+	color: #699f00;
+	padding-top: 13px;
+	padding-left: 7px;
+}
