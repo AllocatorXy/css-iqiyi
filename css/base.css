@@ -3,22 +3,26 @@ li{list-style:none;}
 img{display:block;}
 a{text-decoration:none;}
 body{
-	width: 1000px;
 	position: absolute;
-	margin-left: -500px;
+	width: 100%;
+	margin-left: -50%;
 	left: 50%;
+	overflow-x:hidden;
 	/*margin: 0 auto;*/
-	/*overflow: hidden;*/
 }
+/*input,select,textarea{outline:none;}
+textarea{resize:none;}*/
 
 .fl{float:left;}
 .fr{float:right;}
 .clearFix:after{content:''; display:block; clear:both;}
 .clearFix{zoom:1;}
-.wraper{margin:0 auto;}
+.wraper{margin: 0 auto;}
+
 
 /*下箭头*/
 .dot-bottom{
+	display: inline-block;
 	margin-left: -4px;
 	font-size: 0;
 	line-height: 0;

@@ -1,3 +1,6 @@
+/*.vedioMsg{
+	overflow: hidden;
+}*/
 .vedioMsg li{
 	margin-right: 20px;
 	margin-top: 15px;
@@ -9,9 +12,9 @@
 }
 .vedioMsg li p .title{
 	display: inline-block;
-	padding-top: 9px;
-	padding-bottom: 9px;
-	/*line-height: 35px;*/
+	padding-top: 6px;
+	padding-bottom: 6px;
+	line-height: 21px;
 	font-size: 13px;
 	color: #333;
 	background-color: #f2f2f2;
@@ -20,13 +23,15 @@
 	display: block;
 	color: #999;
 	font-size: 11px;
-	line-height: 22px;
-	margin-top: -7px;
+	margin-top: -3px;
+	padding-bottom: 10px;
 	position: relative;
 }
 .vedioMsg li a{
 	position: relative;
 }
+
+/*日期显示标签*/
 .vedioMsg li a .rec{
 	position: absolute;
 	display: block;
@@ -44,5 +49,53 @@
 }
 .vedioMsg li a .rec2{
 	bottom: 4px;
-	left: 68%;
+	left: 122px;
+}
+
+/*左上today标签*/
+.vedioMsg li a .tag-today{
+	display: block;
+	position: absolute;
+	background: url(../imgs/today-tag.png) no-repeat;
+	width: 125px;
+	height: 45px;
+	left: 0;
+	top: 0;
+}
+
+/*右上独播标签*/
+.vedioMsg li a .tag-dubo{
+	display: block;
+	position: absolute;
+	background: url(../imgs/dubo-tag.png) no-repeat;
+	width: 39px;
+	height: 39px;
+	left: 341px;
+	top: 0;
+}
+/*右上自制标签*/
+.vedioMsg li a .tag-zizhi{
+	display: block;
+	position: absolute;
+	background: url(../imgs/zizhi-tag.png) no-repeat;
+	width: 39px;
+	height: 39px;
+	left: 141px;
+	top: 0;
+}
+/*vip*/
+.vedioMsg li a .tag-vip{
+	display: block;
+	position: absolute;
+	width: 32px;
+	height: 15px;
+	color: #fff;
+	line-height: 16px;
+	font-size: 9px;
+	text-align: center;
+	background-color: #70a900;
+	border: 1px solid #70a900;
+	border-radius: 1px;
+	top: 4px;
+	left: 4px;
 }

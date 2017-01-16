@@ -15,3 +15,18 @@
 	padding-top: 13px;
 	padding-left: 7px;
 }
+.titleBar .nav{
+	font-size: 13px;
+	color: #333;
+	padding-top: 13px;
+	margin-left: 6px;
+	margin-right: 8px;
+}
+.titleBar .line{
+	padding-top: 15px;
+}
+
+.titleBar h2 img{
+	padding-top: 8px;
+	padding-right: 3px;
+}

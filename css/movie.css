@@ -1,0 +1,29 @@
+.movie{
+	margin-top: 42px;
+	width: 980px;
+	margin-top: 47px;
+}
+.movie h2{
+	font-size: 28px;
+	font-weight: normal;
+	
+}
+.movie .titleBar .more{
+	margin-right: 29px;
+}
+.movie .vedioMsg li p i{
+	color: #ff722c;
+	font-style: normal;
+	display: block;
+	float: right;
+	margin-top: 13px;
+	margin-right: 5px;
+	font-size: 16px;
+	line-height: 16px;
+	/*font-family: "ACaslonPro Regular";*/
+}
+.movie .vedioMsg li p i b{
+	font-size: 12px;
+	font-weight: normal;
+	/*font-family: "ACaslonPro Regular";*/
+}

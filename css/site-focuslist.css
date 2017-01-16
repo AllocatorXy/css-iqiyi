@@ -1,21 +1,20 @@
 .site-focuslist{
-	position: absolute;
+	position: relative;
 	height: 410px;
+	width: 100%;
+	background-color: #000;
 }
 .site-focuslist .showing{
-	position: absolute;
+	position: relative;
+	width: 1000px;
+}
+.site-focuslist .pic{
 	cursor: pointer;
 }
-.site-focuslist .showing .pic{
+.site-focuslist .showing .focuslist-index{
 	position: absolute;
-}
-.site-focuslist .showing .shadow{
-	position: absolute;
-}
-
-.site-focuslist .focuslist-index{
-	margin-top: 50px;
-	margin-left: 766px;
+	top: 45px;
+	left: 760px;
 }
 
 .site-focuslist .index-bg{

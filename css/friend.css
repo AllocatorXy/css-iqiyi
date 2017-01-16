@@ -1,0 +1,40 @@
+.friend{
+	height: 182px;
+	background-color: #f7f7f7;
+	border: 1px solid #e7e7e7;
+	margin-bottom: 50px;
+}
+.friend ul{
+	width: 469px;
+	height: 160px;
+	padding-left: 20px;
+	padding-top: 22px;
+	border-right: 1px solid #e7e7e7;
+}
+.friend h2{
+	font-size: 22px;
+	line-height: 22px;
+	color: #333;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.friend h2 a{
+	display: inline-block;
+	font-size: 11px;
+	color: #333;
+	margin-left: 16px;
+}
+.friend ul li{
+	float: left;
+	width: 80px;
+}
+.friend ul li a{
+	margin-bottom: 17px;
+	display: block;
+	font-size: 11px;
+	line-height: 11px;
+	color: #333;
+}
+.friend .dongtai li{
+	width: 190px;
+}

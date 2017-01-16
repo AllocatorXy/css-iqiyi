@@ -1,14 +1,14 @@
 .topBar{
 	position: absolute;
+	top: 0;
+	left: 270px;
 	height: 50px;
-	width: 1000px;
 	z-index: 6;
 }
 
 .topBar .search{
 	width: 316px;
 	height: 30px;
-	margin-left: 270px;
 	margin-top: 10px;
 }
 .topBar .search input{

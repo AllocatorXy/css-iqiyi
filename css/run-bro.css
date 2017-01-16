@@ -1,0 +1,45 @@
+.run-bro{
+	width: 980px;
+}
+
+.run-bro .titleBar{
+	border-bottom: 1px solid #e1e1e1;
+}
+.run-bro .titleBar h2{
+	font-size: 21px;
+	font-weight: normal;
+}
+.run-bro .titleBar img{
+	padding-top: 10px;
+	padding-left: 5px;
+	margin-right: 5px;
+}
+.run-bro .vedioMsg li{
+	width: 180px;
+}
+.run-bro .vedioMsg li>a{
+	margin-bottom: 4px;
+}
+.run-bro .vedioMsg li p{
+	padding-bottom: 5px;
+}
+.run-bro .vedioMsg li p a{
+	display: inline;
+	font-size: 14px;
+	line-height: 24px;
+	background: none;
+	/*padding-bottom: 10px;*/
+}
+/*标题前小绿标签*/
+.run-bro .vedioMsg li p i{
+	font-style: normal;
+	float: left;
+	margin-top: 3px;
+	margin-right: 4px;
+	padding: 0 4px;
+	line-height: 19px;
+	font-size: 11px;
+	color: #699f00;
+	border: 1px solid #cfcfcf;
+	background-color: #fff;
+}

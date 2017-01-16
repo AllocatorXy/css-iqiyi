@@ -1,0 +1,47 @@
+
+.topList ol{
+	margin-top: 25px;
+}
+.topList ol li{
+	width: 180px;
+	height: 20px;
+	margin-bottom: 13px;
+}
+.topList ol li a{
+	float: left;
+	line-height: 20px;
+	font-size: 13px;
+	color: #333;
+}
+.topList ol li .num{
+	width: 13px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 11px;
+	color: #fff;
+	background-color: #a8a8a8;
+	border-radius: 2px;
+	padding-left: 7px;
+	margin-right: 5px;
+}
+.topList ol li .top3{
+	background-color: #73ae00;
+}
+
+.topList ol li i{
+	display: block;
+	width: 9px;
+	height: 10px;
+	margin-top: 5px;
+	background: url(../imgs/list-sprit.png) no-repeat;
+}
+
+.topList ol li .up{
+	background-position: -7px -7px;
+}
+.topList ol li .decrease{
+	background-position: -31px -7px;
+}
+.topList ol li .inherit{
+	background-position: -20px -20px;
+}

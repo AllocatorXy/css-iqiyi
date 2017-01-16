@@ -1,0 +1,46 @@
+.touming ul li{
+	position: relative;
+	margin-top: 45px;
+	margin-right: 20px;
+	margin-bottom: 51px;
+}
+.touming .asd{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 39px;
+}
+
+.touming ul li .asd div{
+	position: absolute;
+	background-color: #000;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+	height: 100%;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+.touming ul li .asd p{
+	line-height: 24px;
+	font-size: 12px;
+	color: #fff;
+	width: 100%;
+	position: relative;
+}
+.touming .channel{
+	width: 180px;
+	height: 34px;
+	background-color: #8ac024;
+	border-bottom: 5px solid #6ba400;
+}
+.touming .channel{
+	font-size: 12px;
+	color: #fff;
+}
+.touming .channel span{
+	font-size: 21px;
+	line-height: 34px;
+	margin-left: 22px;
+	margin-right: 8px;
+}
